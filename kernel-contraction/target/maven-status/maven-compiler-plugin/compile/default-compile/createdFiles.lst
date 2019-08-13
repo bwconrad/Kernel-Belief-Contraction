@@ -1,0 +1,8 @@
+test/beliefContraction.class
+test/Contraction.class
+test/WeightedAxioms.class
+test/creator.class
+test/Parsing.class
+test/Specificity.class
+test/DropSet.class
+test/Preprocessing.class

@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#"
+     xml:base="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#r -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#r">
+        <owl:equivalentProperty rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#s"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#s -->
+
+    <owl:ObjectProperty rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#s"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#B -->
+
+    <owl:Class rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#B">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#s"/>
+                <owl:someValuesFrom rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#C"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#C -->
+
+    <owl:Class rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#C">
+        <rdfs:subClassOf rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#D"/>
+        <rdfs:subClassOf rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#G"/>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#D -->
+
+    <owl:Class rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#D"/>
+    
+
+
+    <!-- file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#E -->
+
+    <owl:Class rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#E">
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#r"/>
+                <owl:someValuesFrom rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#D"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#F -->
+
+    <owl:Class rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#F"/>
+    
+
+
+    <!-- file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#G -->
+
+    <owl:Class rdf:about="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#G">
+        <rdfs:subClassOf rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#D"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Restriction>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#s"/>
+                <owl:someValuesFrom rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#F"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:onProperty rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#r"/>
+        <owl:someValuesFrom rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#G"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <rdfs:subClassOf rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#E"/>
+        <owl:onProperty rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#r"/>
+        <owl:someValuesFrom rdf:resource="file:/C:/Users/Ben/AppData/Local/Temp/test1424034538704189263owl#D"/>
+    </owl:Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.7) http://owlapi.sourceforge.net -->
+
