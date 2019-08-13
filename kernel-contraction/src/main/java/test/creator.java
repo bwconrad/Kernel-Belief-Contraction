@@ -1,3 +1,7 @@
+/* 
+ * Class for manually creating ontologies 
+ */
+
 package test;
 
 import java.io.File;
@@ -34,10 +38,6 @@ import org.semanticweb.owlapi.util.InferredEquivalentObjectPropertyAxiomGenerato
 import org.semanticweb.owlapi.util.InferredOntologyGenerator;
 import org.semanticweb.owlapi.util.InferredSubClassAxiomGenerator;
 import org.semanticweb.owlapi.util.InferredSubObjectPropertyAxiomGenerator;
-
-
-
-
 
 public class creator {
 	public static void main(String[] args) throws OWLOntologyStorageException,
@@ -219,13 +219,8 @@ public class creator {
 			System.out.println(x);
 		}
 		
-		
-		
-		
-	
-		
-		
-	m.saveOntology(ont, new FileOutputStream("C:\\Users\\Ben\\Desktop\\ontologies\\fixing-test.owl"));
+
+	m.saveOntology(ont, new FileOutputStream("../test-ontologies/ont.owl"));
 
 		
 		
