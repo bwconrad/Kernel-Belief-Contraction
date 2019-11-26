@@ -5,12 +5,12 @@ algorithms used can be found
 [here](https://bwconrad.github.io/2019/07/05/belief-contractions-on-large-ontologies-with-minimal-knowledge-loss.html). 
 
 ## Installation
-The program is a Maven project that was developed in Eclipse. Pom file contains all dependencies 
+This is a Maven project that was developed in Eclipse. Pom file contains all dependencies 
 that need to be installed. 
 
 ## Usage
 Run 'beliefContraction' using the program arguments described below:
-+ **Arguments**: inputFile outputFile belief method (ex. input.owl output.owl "A SubClass B" -s)
++ **Arguments**: <inputFile> <outputFile> <belief> <method> (ex. input.owl output.owl "A SubClass B" -s)
     + __inputFile__: An OWL ontology file. All axioms not allowed in OWL-EL
       are automatically removed. 
     + __outputFile__: File name for contracted ontology.
@@ -20,7 +20,7 @@ Run 'beliefContraction' using the program arguments described below:
         + -s: chooses the most specific hitting set
         + -n: chooses any min hitting set
 
-The 'test-ontologies' directory contains sample OWL ontologies that can be as input. 
+The 'test-ontologies' directory contains sample OWL ontologies that can be used as input. 
 
 ## Examples
 
