@@ -1,5 +1,5 @@
 # EL++ Belief Contraction 
-A system for removing beliefs from EL++ ontologies using the kernel contraction
+A system for removing axioms from EL++ ontologies using the kernel contraction
 algorithm and a total preorder rule to minimize information loss. A detailed explaination of the
 algorithms used can be found
 [here](https://bwconrad.github.io/2019/07/05/belief-contractions-on-large-ontologies-with-minimal-knowledge-loss.html). 
